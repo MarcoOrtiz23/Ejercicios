@@ -1,0 +1,18 @@
+public class SegundaParte{
+    public static void main(String[] args) {
+        
+        Coche coche = new Coche();
+        coche.incrementarPuerta();
+        System.out.println(coche.numeroPuertas);
+       
+    }
+}
+
+class Coche {
+
+    int numeroPuertas = 0;
+
+    public void incrementarPuerta(){
+        this.numeroPuertas++;
+    }
+}
