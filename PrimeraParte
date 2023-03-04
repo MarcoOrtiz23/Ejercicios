@@ -1,4 +1,4 @@
-public class Suma {
+public class PrimeraParte {
     public static void main(String[] args) {
         
         int resultado = sumarTresNumeros(5, 6, 7);
